@@ -1,0 +1,17 @@
+{
+	"private": true,
+	"name": "sanity-nuxt-3-starter",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "pnpm --stream -r run dev",
+		"web:dev": "pnpm --filter web run dev",
+		"studio:dev": "pnpm --filter studio run dev",
+		"build": "pnpm --stream -r run build",
+		"web:build": "pnpm --filter web run build",
+		"studio:build": "pnpm --filter studio run build",
+		"web:preview": "pnpm --filter web run preview"
+	},
+	"resolutions": {
+		"consola": "^3.0.0"
+	}
+}
